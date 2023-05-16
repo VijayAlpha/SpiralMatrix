@@ -1,6 +1,6 @@
 async function main() {
     // Get the contract factory and signer
-    const SpiralMatrix = await ethers.getContractFactory("SpiralMatrix2");
+    const SpiralMatrix = await ethers.getContractFactory("SpiralMatrix");
     const [deployer] = await ethers.getSigners();
   
     // Deploy the contract
