@@ -1,6 +1,6 @@
 pragma solidity ^0.8.0;
 
-contract SpiralMatrix {
+contract SpiralMatrix2 {
     uint8[2][2] public waterGrid;
 
     constructor() {
@@ -14,9 +14,9 @@ contract SpiralMatrix {
         uint8[2][2] memory newGrid;
 
         uint8 topRow = 0;
-        uint8 bottomRow = 3;
+        uint8 bottomRow = 1;
         uint8 leftColumn = 0;
-        uint8 rightColumn = 2;
+        uint8 rightColumn = 1;
         uint8 value = 1;
 
         while (topRow <= bottomRow && leftColumn <= rightColumn) {
@@ -56,9 +56,9 @@ contract SpiralMatrix {
         uint8[2][2] memory newGrid;
 
         uint8 topRow = 0;
-        uint8 bottomRow = 3;
+        uint8 bottomRow = 1;
         uint8 leftColumn = 0;
-        uint8 rightColumn = 2;
+        uint8 rightColumn = 1;
         uint8 value = 1;
 
         while (topRow <= bottomRow && leftColumn <= rightColumn) {
